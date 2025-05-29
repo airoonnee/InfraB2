@@ -15,5 +15,3 @@ Ce dépôt contient tous les documents, configurations, scripts et schémas lié
 Permettre une communication sécurisée entre un client et un serveur via VPN, avec transfert de fichiers sécurisé.
 
 ---
-
-Pour toute question, contactez [Ton Nom] - [ton.email@example.com]
