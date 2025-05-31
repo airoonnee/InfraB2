@@ -1,8 +1,10 @@
-# Bonnes Pratiques
+# Bonnes pratiques
 
-- Utilisation de clés cryptographiques pour authentification VPN.
-- Attribution d’adresses IP statiques pour faciliter la gestion réseau.
-- Mise en place d’un réseau interne isolé pour le trafic VPN.
-- Activation de `PersistentKeepalive` pour maintenir la connexion NAT.
-- Limiter les services exposés sur les interfaces VPN uniquement.
-- Surveillance et journalisation des connexions VPN.
+- **VPN obligatoire** : seul le trafic VPN peut accéder au NAS.
+- **Accès limité** : utilisateurs définis (ex : erwan) pour éviter les partages ouverts.
+- **Mots de passe forts** : `smbpasswd` obligatoire.
+- **SMBv1 désactivé** : protocole obsolète désactivé par défaut.
+- **SSH sécurisé** : pas de mot de passe root, connexion uniquement par clé.
+- **MAJ régulières** :
+```bash
+apt update && apt upgrade -y

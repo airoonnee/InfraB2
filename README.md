@@ -1,17 +1,10 @@
-# Projet VPN WireGuard
+# Projet NAS sécurisé via VPN
 
-Ce dépôt contient tous les documents, configurations, scripts et schémas liés à la mise en place d'un VPN WireGuard entre deux machines virtuelles.
+Ce projet met en place un serveur NAS sur une VM Debian, accessible uniquement via un tunnel VPN (WireGuard) depuis une VM cliente.  
+Il répond aux bonnes pratiques de sécurité réseau et système, et permet de stocker, partager et sauvegarder des fichiers en toute sécurité.
 
-## Structure
+## Objectifs
+- Déploiement d’un NAS Samba sur Debian.
+- Mise en place d’un VPN WireGuard.
+- Montage et test du partage depuis une VM cliente.
 
-- `/docs` : Documentation d'architecture, exploitation, choix technologiques, bonnes pratiques.
-- `/config` : Fichiers de configuration WireGuard et exemples SSH.
-- `/scripts` : Scripts d'automatisation (démarrage VPN, sauvegarde).
-- `/schema` : Diagrammes réseau et schémas WireGuard.
-- `INSTALL.md` : Instructions d'installation et déploiement.
-
-## Objectif
-
-Permettre une communication sécurisée entre un client et un serveur via VPN, avec transfert de fichiers sécurisé.
-
----

@@ -1,6 +1,18 @@
-# Choix Technologiques
+# Choix technologiques
 
-- **WireGuard** : VPN moderne, performant, simple à configurer, sécurité renforcée par cryptographie récente.
-- **VirtualBox** : Simulation d’environnement réseau complet avec options NAT et réseau interne.
-- **SSH/SFTP** : Transfert sécurisé des fichiers sans besoin d’installer un service FTP additionnel.
-- **Clés publiques/privées** : Sécurisation forte sans mot de passe.
+## Samba
+- Protocole universel pour le partage de fichiers.
+- Compatible Linux/Windows.
+- Facile à configurer.
+
+## WireGuard
+- VPN rapide et léger.
+- Simplicité des fichiers de configuration.
+- Chiffrement moderne.
+
+## Debian
+- Stable, léger, sécurisé.
+- Idéal pour un service de fond comme un NAS.
+
+## CIFS / mount
+- Permet de monter un partage Samba sur Linux.
